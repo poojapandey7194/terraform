@@ -9,4 +9,5 @@ terraform {
 
 provider "aws" {
   # Configuration options
+   shared_credentials_file = "C:\Users\poohs\.aws\credentials"
 }
